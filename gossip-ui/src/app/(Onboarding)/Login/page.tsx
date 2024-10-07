@@ -13,7 +13,7 @@ import {useRouter} from "next/navigation";
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
-export default function LoginHome() {
+export default function Login() {
   const router = useRouter()
   return (
     <Stack
